@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>YOUR LLC NAME — Profit and Loss YYYY</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #111; background: #fff; margin: 0;
+      padding: 2.5rem 1.5rem 3rem;
+      max-width: 42rem; margin-left: auto; margin-right: auto;
+    }
+    header { text-align: center; margin-bottom: 2.25rem; }
+    header h1 { font-size: 1.125rem; font-weight: 700; margin: 0 0 0.5rem; letter-spacing: 0.02em; }
+    header h2 { font-size: 0.95rem; font-weight: 700; margin: 0 0 0.35rem; }
+    header p { font-size: 0.95rem; font-weight: 700; margin: 0; }
+    section { margin-bottom: 1.75rem; }
+    .section-title { font-weight: 700; font-size: 0.9rem; margin: 0 0 0.65rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    td { padding: 0.35rem 0; vertical-align: baseline; }
+    td.label { text-align: left; padding-right: 1rem; line-height: 1.35; }
+    td.amt { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    tr.total td { font-weight: 700; padding-top: 0.5rem; }
+    tr.subtotal-rule td { border-top: 1px solid #000; padding-top: 0.45rem; }
+    tr.pl td { font-weight: 700; font-size: 1rem; padding-top: 0.75rem; }
+    tr.pl-rule td { border-top: 1px solid #000; padding-top: 0.65rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YOUR LLC NAME</h1>
+    <h2>THE PROFIT AND LOSS ACCOUNT</h2>
+    <p>FOR THE YEAR YYYY</p>
+  </header>
+  <section>
+    <p class="section-title">Revenue</p>
+    <table>
+      <tbody>
+        <tr class="total subtotal-rule">
+          <td class="label">Revenue from Services Rendered</td>
+          <td class="amt">000,000.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <p class="section-title">Operating Expenses</p>
+    <table>
+      <tbody>
+        <tr><td class="label">Foreign operations expense</td><td class="amt">(000,000.00)</td></tr>
+        <tr><td class="label">Bank service charges</td><td class="amt">(000.00)</td></tr>
+        <tr><td class="label">Sales commissions</td><td class="amt">(00,000.00)</td></tr>
+        <tr><td class="label">Software, subscriptions, and payment card expenses</td><td class="amt">(00,000.00)</td></tr>
+        <tr><td class="label">Rent expense — office premises</td><td class="amt">(0,000.00)</td></tr>
+        <tr><td class="label">Contract labor</td><td class="amt">(00,000.00)</td></tr>
+        <tr><td class="label">Travel expense</td><td class="amt">(0,000.00)</td></tr>
+        <tr class="total subtotal-rule">
+          <td class="label">Total operating expenses</td>
+          <td class="amt">(000,000.00)</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <table>
+      <tbody>
+        <tr class="pl pl-rule">
+          <td class="label">Net income</td>
+          <td class="amt">00,000.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
